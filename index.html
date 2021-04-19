@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assignment 7</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="description" content="working with forms from float CSS to grid">
+</head>
+<body>
+<h1>Assignment 7 - working with forms</h1>
+    
+    <form class="form" action="#" method="post">
+       
+        <label for="first-name">
+        First Name
+        </label>
+        <input type="text" id="first-name">
+        
+        <label for="last-name">
+        Last Name
+        </label>
+        <input type="text" id="last-name">
+        
+        <label for="age">
+        Age
+        </label>
+        <input type="text" id="age">
+        
+        <label for="email">
+        Email
+        </label>
+        <input type="text" id="email">
+        
+        <label for="date-of-your-membership">
+        Date of your Membership
+        </label>
+        <input type="text" placeholder="mm/dd/yyyy"
+               id="date-of-your-membership">
+        
+        <label for="choose-your-reward">
+        Choose your Reward
+        </label>
+        <input type="text" name="choose-your-reward" id="choose-your-reward" list="rewards">
+        <datalist id="rewards">
+        <option value="">
+        <option value="Two-Year Magazine Subscription">
+        <option value="2 Tickets to Annual Seminar">
+        <option value="Voucher $100 food during Seminar">
+        <option value="1-day hotel stay for Seminar">
+        </datalist>
+<div><input type="submit" value="Submit"> &nbsp; <input type="reset" value="Clear"></div>
+    </form>
+</body>
+</html>
