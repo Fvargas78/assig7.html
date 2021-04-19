@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+form{
+  padding: 1em;
+  background: #f9f9f9;
+  border: 1px solid black;
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+form input {
+  margin-bottom: 1rem;
+  background: white;
+  border: 2px solid #000000;
+}
+
+label {
+  padding: 0.5em 1.5em 0.5em 0;
+  display: block;
+  text-align: right;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.myinput {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+
+input:focus {
+    background-color: gold;
+}
+
+
+h1{ 
+text-align: center;
+font-style: italic;
+color: gold;
+}
+
+
+form div { text-align:center; }
+input[type="submit"], input[type="reset"] {
+  background: lightgray;
+  padding: 12px 20px; 
+  border: 0;
+}
+
+
