@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-form{
+form{ 
   padding: 1em;
   background: #f9f9f9;
   border: 1px solid black;
@@ -12,7 +12,7 @@ form{
   padding: 1em;
 }
 
-form input {
+ form input  {
   margin-bottom: 1rem;
   background: white;
   border: 2px solid #000000;
@@ -24,6 +24,11 @@ label {
   text-align: right;
 }
 
+
+input:focus {
+    background-color: gold;
+}
+
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -32,16 +37,33 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-.myinput {
+
+input[type=number], select {
   width: 100%;
-  padding: 0.7em;
-  margin-bottom: 0.5rem;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-input:focus {
-    background-color: gold;
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
 h1{ 
 text-align: center;
@@ -49,12 +71,10 @@ font-style: italic;
 color: gold;
 }
 
-
 form div { text-align:center; }
 input[type="submit"], input[type="reset"] {
   background: lightgray;
   padding: 12px 20px; 
   border: 0;
 }
-
 
