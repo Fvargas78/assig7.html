@@ -78,3 +78,9 @@ input[type="submit"], input[type="reset"] {
   border: 0;
 }
 
+footer {
+  background: lightgray;
+  color: dimgray;
+  text-align: center;
+}
+
