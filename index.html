@@ -10,51 +10,28 @@
 <h1>Assignment 7 - working with forms</h1>
     
 <form class="form1" action="#" method="post">
-        <div>
-        <label for="first-name">
-        First Name
-        </label>
-        <input type="text" id="first-name" maxlength="15">
+     <label for="first_name">First name:</label>
+        <input type="text" id="first_name" name="first_name" maxlength="15" class="myinput">
+        <label for="last_name">Last name:</label>
+        <input type="text" id="last_name" name="last_name" maxlength="25" class="myinput">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="65" class="myinput">
+        <label for="email_address">Email:</label>
+        <input type="email" id="email_address" name="email_address" class="myinput" required>
+        <label for="membership_date">Date of your Membership:</label>
+        <input type="date" id="membership_date" name="membership_date" class="myinput" max='2021-12-31'>
+        <label for="reward_choice">Choose your Reward:</label>
+        <select id="reward_choice" name="reward_choice" class="myinput">
+            <option disabled selected value="default_blank"> &nbsp;</option>
+            <option value="two_year_memb">Two-year Member Magazine Subscription</option>
+            <option value="two_tkts_smnr">2 Tickets to Annual Seminar</option>
+            <option value="vouch_fd_smnr">Voucher $100 food during Seminar</option>
+            <option value="hotl_sty_smnr">1-day Hotel Stay during Seminar</option>
+        </select>
+  <div><input type="submit" value="Submit"> &nbsp;
+            <input type="reset" value="Clear">
         </div>
-        <div>
-        <label for="last-name">
-        Last Name
-        </label>
-        <input type="text" id="last-name" maxlength="25">
-        </div>
-        <div>
-        <label for="age">
-        Age
-        </label>
-        <input type="number" id="age" min="18" max="65">
-        </div>
-        <div>
-        <label for="email">
-        Email
-        </label>
-        <input type="email" id="email" required>
-        </div>
-        <div>
-        <label for="date-of-your-membership">
-        Date of your Membership
-        </label>
-        <input type="date" name="date" id="date" max="2021-12-31">
-        </div>
-        <div>
-        <label for="choose-your-reward">
-        Choose your Reward
-        </label>
-        <input type="text" name="choose-your-reward" id="choose-your-reward" list="rewards">
-        <datalist id="rewards">
-        <option value="">
-        <option value="Two-Year Magazine Subscription">
-        <option value="2 Tickets to Annual Seminar">
-        <option value="Voucher $100 food during Seminar">
-        <option value="1-day hotel stay for Seminar">
-        </datalist>
-        </div>
-<div><input type="submit" value="Submit"> &nbsp; <input type="reset" value="Clear"></div>
-    </form>
+    </form>     
 <footer>
     <p>This page can be accesed from my <a class="active" href="https://fvargas78.github.io/assignments.html/">Assignments Page.</a> on Fabricio's webpage</p>
 </footer>     
